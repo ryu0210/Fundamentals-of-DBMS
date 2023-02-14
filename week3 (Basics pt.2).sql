@@ -1,7 +1,7 @@
 CREATE DATABASE MyBank;
 USE MyBank;
 
-/* https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/ */
+/** https://docs.google.com/document/d/19cs0rOahPuggLInEIWIOqzG95YIvabhyp8wl0EnqQHE/edit?usp=sharing */
 
 CREATE TABLE Customer(
 	Customer_Id VARCHAR(20),
@@ -19,7 +19,8 @@ CREATE TABLE Depositor(
     Customer_ID VARCHAR(20),
     Account_Number VARCHAR(20)
     );
-    
+
+/* https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/ */
 
 INSERT INTO Customer SET Customer_Id='192-83-7465', Customer_Name='Johnson', Customer_Street='12 Alma St.', Customer_City='Palo Alto';
 INSERT INTO Customer SET Customer_Id='019-28-3746', Customer_Name='Smith', Customer_Street='4 North St.', Customer_City='Rye';
