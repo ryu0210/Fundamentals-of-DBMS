@@ -53,7 +53,7 @@ CREATE TABLE Enrolled(
 	sid CHAR(20),
 	cid CHAR(20),
 	grade CHAR(2),
-	PRIMARY KEY (sid,cid) );
+	PRIMARY KEY (sid,cid) );		/** Primary Key makes a value unique, so if teh corresponding table value is not similar, it wom't print */
 
 CREATE TABLE Enrolled(
 	sid CHAR(20),
