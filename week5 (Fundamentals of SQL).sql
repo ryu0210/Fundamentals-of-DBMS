@@ -91,6 +91,8 @@ INSERT INTO Enrolled (sid, cid, grade) VALUES (53777, 'Topology201', 'B'); /* Wi
 
 INSERT INTO Enrolled (sid, cid, grade) VALUES (53688, 'History101', 'A');
 
+/** ========================================= */
+
 SET FOREIGN_KEY_CHECKS=0;
 
 DELETE FROM Students WHERE sid=53688;
