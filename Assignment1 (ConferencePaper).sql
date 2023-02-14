@@ -1,7 +1,7 @@
 CREATE DATABASE ConferencePaper; 
 USE ConferencePaper;
 
-/** Do NOT FORGET MUSIC STORE */
+/** https://docs.google.com/document/d/1kc_zojtvQsvnZ_LBVCD_4O3AkE6-Nu_iKEsSIS9Eg2c/edit?usp=sharing */
 
 CREATE TABLE Conference_Paper (
 	Title VARCHAR(30),
