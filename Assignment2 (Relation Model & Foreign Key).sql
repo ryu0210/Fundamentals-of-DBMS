@@ -2,6 +2,9 @@ CREATE DATABASE BankRelations;
 USE BankRelations;
 
 
+/** https://docs.google.com/document/d/1lrecjL_RQPUSaodrrswvU9e2eRZr1KVzzjdeZZE0gMA/edit?usp=sharing */
+
+
 /** Question 1 */
 CREATE TABLE Customer ( 
 	Name varchar(32), 
