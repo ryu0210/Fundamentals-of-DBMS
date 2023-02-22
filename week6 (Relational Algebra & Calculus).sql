@@ -71,3 +71,5 @@ SELECT A.color, C.sname FROM Boats A, Reservation B, Sailors C WHERE (A.color = 
 SELECT A.color, C.sname FROM Boats A, Reservation B, Sailors C WHERE A.color = 'red' AND A.color = 'green' AND A.bid = B.bid AND B.sid = C.sid AND C.sname = C.sname;
 
 SELECT S.sname, B.bname, R.bid, R.day FROM Sailors S, Boats B, Reservation R WHERE S.sid = R.sid AND R.bid = B.bid;
+/* OR */ 
+SELECT S.sname, B.bname, R.bid, R.day FROM Sailors S, Boats B, Reservation R WHERE S.sid = R.sid / R.bid = B.bid;
